@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* ===== GRID LAYOUT ===== */
@@ -10,19 +11,39 @@
 }
 
 .main {
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
 }
 
 .color-grid,
 .font-grid {
     grid-template: 1fr 1fr / 1fr 1fr;
+    grid-gap: 5px;
 }
 
 .text-grid {
     grid-template: repeat(3, 1fr) / 1fr;
+    grid-gap: 5px;
+    grid-row: 3 / -1;
 }
 
 /* ===== BASE STYLES ===== */
+
+h1 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+li {
+    list-style: circle;
+    list-style-position: inside;
+    padding-left: .5em;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+}
 
 .colors {
     background-color: coral;
@@ -33,5 +54,5 @@
 }
 
 .text-styles {
-    background-color: lightyellow;
+    background-color: lightpink;
 }
