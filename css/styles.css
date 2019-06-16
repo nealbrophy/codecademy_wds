@@ -1,0 +1,37 @@
+/* ===== NORMALIZE =====*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== GRID LAYOUT ===== */
+.grid {
+    display: grid;
+}
+
+.main {
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.color-grid,
+.font-grid {
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
+
+.text-grid {
+    grid-template: repeat(3, 1fr) / 1fr;
+}
+
+/* ===== BASE STYLES ===== */
+
+.colors {
+    background-color: coral;
+}
+
+.fonts {
+    background-color: lightblue;
+}
+
+.text-styles {
+    background-color: lightyellow;
+}
