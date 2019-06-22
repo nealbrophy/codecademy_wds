@@ -29,13 +29,10 @@
 
 /* ===== BASE STYLES ===== */
 
-header {
-    
-}
 
 h1 {
     text-align: center;
-    padding-top: .5em;
+    padding: .5em;
 }
 
 h2 {
@@ -59,17 +56,17 @@ li {
 .colors,
 .fonts,
 .text-styles {
-    padding: 1em;
+    padding: 1em 5em;
     border: 2px solid gray;
-    text-align: center;
+    text-align: left;
 }
-
+/* ===== COLORS SECTION ===== */
 .swatch-1,
 .swatch-2,
 .swatch-3,
 .swatch-4 {
-    width: 50%;
-    height: 5em;
+    width: 70%;
+    height: 7em;
     margin: .5em auto;
     padding-top: .8em;
 }
@@ -86,6 +83,16 @@ li {
 .swatch-4 {
     background-color: #091D34;
     color: white;
+}
+
+/* ===== FONTS SECTION ===== */
+
+.font-1 {
+    padding-bottom: 1em;
+}
+
+.fonts p {
+    padding: .5em;
 }
 
 .fonts h3 {
@@ -127,4 +134,32 @@ li {
 
 .font-3 p:nth-child(4) {
     font-style: italic;
+}
+
+/* ===== TEXT-STYLES SECTION ===== */
+
+.example-head {
+    font-family: "Slabo 27px", serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.example-subhead {
+    font-family: "Slabo", serif;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.example-p {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-styles h3 {
+    padding: .5em;
+}
+
+.text-styles li {
+    padding: .2em;
 }
