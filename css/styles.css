@@ -11,7 +11,7 @@
 }
 
 .main {
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
     grid-gap: 5px;
 }
 
@@ -29,9 +29,18 @@
 
 /* ===== BASE STYLES ===== */
 
+header {
+    
+}
+
 h1 {
     text-align: center;
-    padding-top: 1em;
+    padding-top: .5em;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: .5em;
 }
 
 li {
@@ -43,16 +52,78 @@ li {
 .main {
     width: 80%;
     margin: auto;
+    height: auto;
 }
 
-.colors {
-    background-color: coral;
-}
-
-.fonts {
-    background-color: lightblue;
-}
-
+.colors,
+.fonts,
 .text-styles {
-    background-color: lightpink;
+    padding: 1em;
+    border: 2px solid gray;
+}
+
+
+.swatch-1 {
+    background-color: #F7E3D4;
+    width: 50%;
+    height: 3em;
+    margin: auto;
+}
+.swatch-2 {
+    background-color: #FC7307;
+    width: 50%;
+    height: 3em;
+    margin: auto;
+}
+.swatch-3 {
+    background-color: #236AB9;
+    width: 50%;
+    height: 3em;
+    margin: auto;
+}
+.swatch-4 {
+    background-color: #091D34;
+    color: white;
+    width: 50%;
+    height: 3em;
+    margin: auto;
+}
+
+.fonts h3 {
+    padding-bottom: .5em;
+    text-decoration: underline;
+}
+.font-1 p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.font-1 p:nth-child(3) {
+    font-weight: bold;
+}
+
+.font-1 p:nth-child(4) {
+    font-style: italic;
+}
+
+.font-2 p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.font-2 p:nth-child(3) {
+    font-weight: bold;
+}
+
+.font-2 p:nth-child(4) {
+    font-style: italic;
+}
+.font-3 p{
+    font-family: 'Slabo 27px', serif;
+}
+
+.font-3 p:nth-child(3) {
+    font-weight: bold;
+}
+
+.font-3 p:nth-child(4) {
+    font-style: italic;
 }
