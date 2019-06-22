@@ -41,6 +41,7 @@ h1 {
 h2 {
     text-align: center;
     padding-bottom: .5em;
+    font-size: 1.8em;
 }
 
 li {
@@ -60,41 +61,41 @@ li {
 .text-styles {
     padding: 1em;
     border: 2px solid gray;
+    text-align: center;
 }
 
+.swatch-1,
+.swatch-2,
+.swatch-3,
+.swatch-4 {
+    width: 50%;
+    height: 5em;
+    margin: .5em auto;
+    padding-top: .8em;
+}
 
 .swatch-1 {
     background-color: #F7E3D4;
-    width: 50%;
-    height: 3em;
-    margin: auto;
 }
 .swatch-2 {
     background-color: #FC7307;
-    width: 50%;
-    height: 3em;
-    margin: auto;
 }
 .swatch-3 {
     background-color: #236AB9;
-    width: 50%;
-    height: 3em;
-    margin: auto;
 }
 .swatch-4 {
     background-color: #091D34;
     color: white;
-    width: 50%;
-    height: 3em;
-    margin: auto;
 }
 
 .fonts h3 {
     padding-bottom: .5em;
     text-decoration: underline;
+    font-size: 1.4em;
 }
 .font-1 p {
     font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
 }
 
 .font-1 p:nth-child(3) {
